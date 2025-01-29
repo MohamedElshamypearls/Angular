@@ -1,0 +1,62 @@
+.Port{
+    background: white;
+}
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.icon-with-lines {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .line {
+    display: block;
+    height: 5px; 
+    background-color: black; 
+    flex-grow: 1; 
+    width: 120px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: black; 
+  }
+  .HEADER{
+    margin-top: 120px;
+  }
+  .portfolio-layer {
+    opacity: 0;
+    inset: 0;
+
+}
+
+.portfolio-layer {
+    transition: 0.5s all;
+}
+
+.portfolio-inner:hover .portfolio-layer {
+  background: #1abc9c;
+    opacity: 0.5;
+    border: 5px solid silver;
+}
+
+
+.portfolio-layer-icons i {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-layer-icons i:hover {
+    background-color: rgb(196, 193, 193);
+    color: black;
+}
